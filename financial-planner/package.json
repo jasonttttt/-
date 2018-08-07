@@ -1,0 +1,38 @@
+{
+  "name": "financial-planner",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "hs",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env ENV_NAME=development nuxt",
+    "test": "cross-env ENV_NAME=test cross-env PORT=3011 nuxt",
+    "joint": "cross-env ENV_NAME=joint nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.4",
+    "js-cookie": "^2.2.0",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0"
+  },
+  "config": {
+    "nuxt": {
+      "port": "3010"
+    }
+  }
+}
