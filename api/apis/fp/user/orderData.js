@@ -33,8 +33,8 @@ module.exports = {
     }
   },
   {
-    user: '张一鸣',
-    tel: '72878270180',
+    user: '吴晓君',
+    tel: '18478947392',
     undue: {
       id: 1,
       name: '未到期产品',
@@ -50,6 +50,13 @@ module.exports = {
           date: '17/06/22',
           expire: '18/05/20',
         },
+        {
+          title: '新疆前海联合海盈货币 (002241)',
+          money: '700万',
+          date: '17/06/22',
+          expire: '18/05/20',
+        },
+        
       ],
     },
     expire: {
